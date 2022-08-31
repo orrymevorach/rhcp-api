@@ -123,10 +123,30 @@
     "team": "Orry"
   },
   { "song": "Hump De Bump", "round": "7", "team": "Elan" },
-  { "song": "", "round": "7", "team": "Ostroff" },
+  { "song": "Slow Cheetah", "round": "7", "team": "Ostroff" },
   {
     "song": "I Could Have Lied",
     "round": "7",
     "team": "Sean"
+  },
+  {
+    "song": "Dosed",
+    "round": "7",
+    "team": "Matt"
+  },
+  {
+    "song": "Road Trippin'",
+    "round": "8",
+    "team": "Matt"
+  },
+  {
+    "song": "I Like Dirt",
+    "round": "8",
+    "team": "Sean"
+  },
+  {
+    "song": "Savior",
+    "round": "8",
+    "team": "Ostroff"
   }
 ]
