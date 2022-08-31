@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const generateSongCount = require('./generateSongCount.js');
 
 async function scrapeData(url) {
+  console.log(`Starting data scrape from ${url}`);
   try {
     const html = await axios.get(url);
     const $ = cheerio.load(html.data);
@@ -74,4 +75,6 @@ async function scrapeDataAndWriteToFile() {
   }, 5000);
 }
 
-scrapeDataAndWriteToFile();
+// scrapeDataAndWriteToFile();
+
+module.exports = scrapeDataAndWriteToFile;
