@@ -3,7 +3,7 @@ const scrapeDataAndWriteToFile = require('./app');
 const { Octokit } = require('@octokit/rest');
 
 const octokit = new Octokit({
-  auth: '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',
+  auth: process.env.auth,
 });
 
 const owner = 'orrymevorach';
