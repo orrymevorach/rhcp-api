@@ -1,0 +1,132 @@
+[
+  { "song": "By the Way", "round": "1", "team": "Ben" },
+  { "song": "Aeroplane", "round": "1", "team": "Jamie" },
+  { "song": "Around the World", "round": "1", "team": "Orry" },
+  {
+    "song": "Parallel Universe",
+    "round": "1",
+    "team": "Elan"
+  },
+  {
+    "song": "Californication",
+    "round": "1",
+    "team": "Ostroff"
+  },
+  { "song": "Suck My Kiss", "round": "1", "team": "Sean" },
+  { "song": "Can't Stop", "round": "1", "team": "Matt" },
+  { "song": "Scar Tissue", "round": "2", "team": "Matt" },
+  {
+    "song": "Otherside",
+    "round": "2",
+    "team": "Sean"
+  },
+  {
+    "song": "Save the Population",
+    "round": "2",
+    "team": "Ostroff"
+  },
+  {
+    "song": "Breaking the Girl",
+    "round": "2",
+    "team": "Elan"
+  },
+  { "song": "Venice Queen", "round": "2", "team": "Orry" },
+  { "song": "Give It Away", "round": "2", "team": "Jamie" },
+  { "song": "Soul to Squeeze", "round": "2", "team": "Ben" },
+  { "song": "Snow ((Hey Oh))", "round": "3", "team": "Ben" },
+  {
+    "song": "Blood Sugar Sex Magik",
+    "round": "3",
+    "team": "Jamie"
+  },
+  { "song": "Wet Sand", "round": "3", "team": "Orry" },
+  { "song": "Cabron", "round": "3", "team": "Elan" },
+  { "song": "My Friends", "round": "3", "team": "Ostroff" },
+  {
+    "song": "Nobody Weird Like Me",
+    "round": "3",
+    "team": "Sean"
+  },
+  { "song": "Funky Monks", "round": "3", "team": "Matt" },
+  { "song": "Under the Bridge", "round": "4", "team": "Matt" },
+  { "song": "The Zephyr Song", "round": "4", "team": "Sean" },
+  {
+    "song": "Universally Speaking",
+    "round": "4",
+    "team": "Ostroff"
+  },
+  { "song": "Higher Ground", "round": "4", "team": "Elan" },
+  {
+    "song": "Throw Away Your Television",
+    "round": "4",
+    "team": "Orry"
+  },
+  { "song": "Walkabout", "round": "4", "team": "Jamie" },
+  {
+    "song": "Me and My Friends ",
+    "round": "4",
+    "team": "Ben"
+  },
+  { "song": "Easily", "round": "5", "team": "Ben" },
+  {
+    "song": "Johnny, Kick a Hole in the Sky",
+    "round": "5",
+    "team": "Jamie"
+  },
+  { "song": "Fortune Faded", "round": "5", "team": "Orry" },
+  {
+    "song": "This Velvet Glove",
+    "round": "5",
+    "team": "Elan"
+  },
+  {
+    "song": "Sir Psycho Sexy",
+    "round": "5",
+    "team": "Ostroff"
+  },
+  { "song": "Coffee Shop", "round": "5", "team": "Sean" },
+  { "song": "Get on Top", "round": "5", "team": "Matt" },
+
+  {
+    "song": "The Power of Equality",
+    "round": "6",
+    "team": "Matt"
+  },
+  { "song": "Purple Stain", "round": "6", "team": "Sean" },
+  {
+    "song": "Hard to Concentrate",
+    "round": "6",
+    "team": "Ostroff"
+  },
+  { "song": "Readymade", "round": "6", "team": "Elan" },
+  {
+    "song": "Especially in Michigan",
+    "round": "6",
+    "team": "Orry"
+  },
+  {
+    "song": "Mellowship Slinky in B Major",
+    "round": "6",
+    "team": "Jamie"
+  },
+  { "song": "Get On Top", "round": "6", "team": "Ben" },
+
+  { "song": "Tell Me Baby", "round": "7", "team": "Ben" },
+  {
+    "song": "Shallow Be Thy Game ",
+    "round": "7",
+    "team": "Jamie"
+  },
+  {
+    "song": "Naked in the Rain",
+    "round": "7",
+    "team": "Orry"
+  },
+  { "song": "Hump De Bump", "round": "7", "team": "Elan" },
+  { "song": "", "round": "7", "team": "Ostroff" },
+  {
+    "song": "I Could Have Lied",
+    "round": "7",
+    "team": "Sean"
+  }
+]

@@ -10,6 +10,7 @@ const owner = 'orrymevorach';
 const repo = 'rhcp-api';
 
 const getCurrentCommit = async () => {
+  console.log('Gettint current commit');
   const { data: refData } = await octokit.git.getRef({
     owner,
     repo,
@@ -21,6 +22,7 @@ const getCurrentCommit = async () => {
     repo: 'rhcp-api',
     commit_sha: commitSha,
   });
+  console.log('Success');
   return {
     commitSha,
     treeSha: commitData.tree.sha,
@@ -28,6 +30,7 @@ const getCurrentCommit = async () => {
 };
 
 const createCommit = async ({ treeSha, commitSha }) => {
+  console.log('Creating commit');
   const result = await octokit.rest.git.createCommit({
     owner,
     repo,
@@ -35,10 +38,13 @@ const createCommit = async ({ treeSha, commitSha }) => {
     tree: treeSha,
     parents: [commitSha],
   });
+
+  console.log('Success');
   return { sha: result.data.sha };
 };
 
 const pushCommit = async function (sha) {
+  console.log('Pushing commit');
   const result = await octokit.request(
     `PATCH /repos/${owner}/${repo}/git/refs/heads/master`,
     {
@@ -49,7 +55,7 @@ const pushCommit = async function (sha) {
       //   force: true,
     }
   );
-
+  console.log('Success');
   return result;
 };
 
@@ -60,9 +66,9 @@ async function commitNewFiles() {
 }
 
 const task = cron.schedule('* * * * *', async () => {
-  console.log('Running cron job');
   await scrapeDataAndWriteToFile();
   await commitNewFiles();
+  console.log('Finished cron job');
 });
 
 task.start();
