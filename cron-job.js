@@ -67,8 +67,10 @@ async function commitNewFiles() {
 
 const task = cron.schedule('* * * * *', async () => {
   await scrapeDataAndWriteToFile();
-  await commitNewFiles();
-  console.log('Finished cron job');
+  // setTimeout(async () => {
+  //   await commitNewFiles();
+  //   console.log('Finished cron job');
+  // }, 10000);
 });
 
-task.start();
+module.exports = task;
