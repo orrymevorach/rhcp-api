@@ -148,5 +148,97 @@
     "song": "Savior",
     "round": "8",
     "team": "Ostroff"
+  },
+  {
+    "song": "Death of a Martian",
+    "round": "8",
+    "team": "Elan"
+  },
+  {
+    "song": "Strip My Mind",
+    "round": "8",
+    "team": "Orry"
+  },
+  {
+    "song": "On Mercury",
+    "round": "8",
+    "team": "Jamie"
+  },
+  {
+    "song": "Warped",
+    "round": "8",
+    "team": "Ben"
+  },
+
+  {
+    "song": "The Righteous and the Wicked",
+    "round": "9",
+    "team": "Ben"
+  },
+  {
+    "song": "Storm In A Teacup",
+    "round": "9",
+    "team": "Jamie"
+  },
+  {
+    "song": "The Greeting Song",
+    "round": "9",
+    "team": "Orry"
+  },
+  {
+    "song": "Minor Thing",
+    "round": "9",
+    "team": "Elan"
+  },
+  {
+    "song": "Midnight",
+    "round": "9",
+    "team": "Ostroff"
+  },
+  {
+    "song": "Dani California",
+    "round": "9",
+    "team": "Sean"
+  },
+  {
+    "song": "One Hot Minute",
+    "round": "9",
+    "team": "Matt"
+  },
+
+  {
+    "song": "One Hot Minute",
+    "round": "10",
+    "team": "Matt"
+  },
+  {
+    "song": "The Adventures of Rain Dance Maggie",
+    "round": "10",
+    "team": "Sean"
+  },
+  {
+    "song": "True Men Don't Kill Coyotes",
+    "round": "10",
+    "team": "Ostroff"
+  },
+  {
+    "song": "Factory of Faith",
+    "round": "10",
+    "team": "Elan"
+  },
+  {
+    "song": "Subway to Venus",
+    "round": "10",
+    "team": "Orry"
+  },
+  {
+    "song": "Yertle the Turtle",
+    "round": "10",
+    "team": "Jamie"
+  },
+  {
+    "song": "",
+    "round": "10",
+    "team": "Ben"
   }
 ]
