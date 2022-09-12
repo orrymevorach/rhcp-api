@@ -3,7 +3,7 @@ const scrapeDataAndWriteToFile = require('../../scripts/app');
 
 const handler = async function (event, context) {
   console.log('Starting netlify function');
-  await scrapeDataAndWriteToFile();
+  // await scrapeDataAndWriteToFile();
   return {
     statusCode: 200,
   };
