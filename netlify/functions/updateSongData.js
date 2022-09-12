@@ -9,4 +9,4 @@ const handler = async function (event, context) {
   };
 };
 
-module.exports.handler = schedule('29 11 * * *', handler);
+module.exports.handler = schedule('* * * * *', handler);
