@@ -1,402 +1,308 @@
 [
-  [
-    "Intro Jam",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Snow ((Hey Oh))",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "These Are the Ways",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Black Summer",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Californication",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Give It Away",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "By the Way",
-    {
-      "count": 30,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Dani California",
-    {
-      "count": 29,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "The Heavy Wing",
-    {
-      "count": 18,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Can't Stop",
-    {
-      "count": 17,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Soul to Squeeze",
-    {
-      "count": 17,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Aquatic Mouth Dance",
-    {
-      "count": 16,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Otherside",
-    {
-      "count": 14,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Around the World",
-    {
-      "count": 14,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Tell Me Baby",
-    {
-      "count": 14,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Here Ever After",
-    {
-      "count": 13,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Whatchu Thinkin'",
-    {
-      "count": 13,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Nobody Weird Like Me",
-    {
-      "count": 12,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Right on Time",
-    {
-      "count": 12,
-      "lastPlayed": "2022-08-30T04:00:00.000Z",
-      "formattedDate": "8/30/2022"
-    }
-  ],
-  [
-    "Scar Tissue",
-    {
-      "count": 11,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Charlie",
-    {
-      "count": 11,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Under the Bridge",
-    {
-      "count": 11,
-      "lastPlayed": "2022-08-21T04:00:00.000Z",
-      "formattedDate": "8/21/2022"
-    }
-  ],
-  [
-    "I Like Dirt",
-    {
-      "count": 11,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "The Zephyr Song",
-    {
-      "count": 11,
-      "lastPlayed": "2022-08-30T04:00:00.000Z",
-      "formattedDate": "8/30/2022"
-    }
-  ],
-  [
-    "I Could Have Lied",
-    {
-      "count": 9,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Universally Speaking",
-    {
-      "count": 8,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Suck My Kiss",
-    {
-      "count": 8,
-      "lastPlayed": "2022-08-30T04:00:00.000Z",
-      "formattedDate": "8/30/2022"
-    }
-  ],
-  [
-    "Hard to Concentrate",
-    {
-      "count": 7,
-      "lastPlayed": "2022-08-30T04:00:00.000Z",
-      "formattedDate": "8/30/2022"
-    }
-  ],
-  [
-    "Throw Away Your Television",
-    {
-      "count": 6,
-      "lastPlayed": "2022-08-30T04:00:00.000Z",
-      "formattedDate": "8/30/2022"
-    }
-  ],
-  [
-    "She's a Lover",
-    {
-      "count": 6,
-      "lastPlayed": "2022-08-06T04:00:00.000Z",
-      "formattedDate": "8/6/2022"
-    }
-  ],
-  [
-    "Hey",
-    {
-      "count": 5,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Don't Forget Me",
-    {
-      "count": 5,
-      "lastPlayed": "2022-08-14T04:00:00.000Z",
-      "formattedDate": "8/14/2022"
-    }
-  ],
-  [
-    "Wet Sand",
-    {
-      "count": 5,
-      "lastPlayed": "2022-08-19T04:00:00.000Z",
-      "formattedDate": "8/19/2022"
-    }
-  ],
-  [
-    "Parallel Universe",
-    {
-      "count": 4,
-      "lastPlayed": "2022-09-01T04:00:00.000Z",
-      "formattedDate": "9/1/2022"
-    }
-  ],
-  [
-    "Me & My Friends",
-    {
-      "count": 4,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Pea",
-    {
-      "count": 3,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "Sir Psycho Sexy",
-    {
-      "count": 3,
-      "lastPlayed": "2022-08-10T04:00:00.000Z",
-      "formattedDate": "8/10/2022"
-    }
-  ],
-  [
-    "They're Red Hot",
-    {
-      "count": 3,
-      "lastPlayed": "2022-08-10T04:00:00.000Z",
-      "formattedDate": "8/10/2022"
-    }
-  ],
-  [
-    "It's Only Natural",
-    {
-      "count": 3,
-      "lastPlayed": "2022-08-03T04:00:00.000Z",
-      "formattedDate": "8/3/2022"
-    }
-  ],
-  [
-    "Your Song",
-    {
-      "count": 2,
-      "lastPlayed": "2022-09-03T04:00:00.000Z",
-      "formattedDate": "9/3/2022"
-    }
-  ],
-  [
-    "What Is Soul?",
-    {
-      "count": 2,
-      "lastPlayed": "2022-07-09T04:00:00.000Z",
-      "formattedDate": "7/9/2022"
-    }
-  ],
-  [
-    "One Way Traffic",
-    {
-      "count": 2,
-      "lastPlayed": "2022-06-22T04:00:00.000Z",
-      "formattedDate": "6/22/2022"
-    }
-  ],
-  [
-    "Strip My Mind",
-    {
-      "count": 1,
-      "lastPlayed": "2022-08-12T04:00:00.000Z",
-      "formattedDate": "8/12/2022"
-    }
-  ],
-  [
-    "Mommy, Where's Daddy?",
-    {
-      "count": 1,
-      "lastPlayed": "2022-07-27T04:00:00.000Z",
-      "formattedDate": "7/27/2022"
-    }
-  ],
-  [
-    "She's Only 18",
-    {
-      "count": 1,
-      "lastPlayed": "2022-07-29T04:00:00.000Z",
-      "formattedDate": "7/29/2022"
-    }
-  ],
-  [
-    "Blood Sugar Sex Magik",
-    {
-      "count": 1,
-      "lastPlayed": "2022-08-06T04:00:00.000Z",
-      "formattedDate": "8/6/2022"
-    }
-  ],
-  [
-    "If You Have to Ask",
-    {
-      "count": 1,
-      "lastPlayed": "2022-06-29T04:00:00.000Z",
-      "formattedDate": "6/29/2022"
-    }
-  ],
-  [
-    "Emit Remmus",
-    {
-      "count": 1,
-      "lastPlayed": "2022-06-25T04:00:00.000Z",
-      "formattedDate": "6/25/2022"
-    }
-  ],
-  [
-    "Thirty Dirty Birds",
-    {
-      "count": 1,
-      "lastPlayed": "2022-06-12T04:00:00.000Z",
-      "formattedDate": "6/12/2022"
-    }
-  ],
-  [
-    "White Braids & Pillow Chair",
-    {
-      "count": 1,
-      "lastPlayed": "2022-06-12T04:00:00.000Z",
-      "formattedDate": "6/12/2022"
-    }
-  ]
+  {
+    "song": "Intro Jam",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "These Are the Ways",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Snow ((Hey Oh))",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Black Summer",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Californication",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Give It Away",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "By the Way",
+    "count": 32,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Dani California",
+    "count": 31,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "The Heavy Wing",
+    "count": 20,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Can't Stop",
+    "count": 18,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Soul to Squeeze",
+    "count": 18,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Aquatic Mouth Dance",
+    "count": 17,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Otherside",
+    "count": 15,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Around the World",
+    "count": 15,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Tell Me Baby",
+    "count": 15,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Here Ever After",
+    "count": 14,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Right on Time",
+    "count": 13,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Nobody Weird Like Me",
+    "count": 13,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Whatchu Thinkin'",
+    "count": 13,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "The Zephyr Song",
+    "count": 12,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Charlie",
+    "count": 12,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Scar Tissue",
+    "count": 12,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Under the Bridge",
+    "count": 12,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "I Like Dirt",
+    "count": 11,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "I Could Have Lied",
+    "count": 10,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Suck My Kiss",
+    "count": 9,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Universally Speaking",
+    "count": 8,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "Hard to Concentrate",
+    "count": 8,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Throw Away Your Television",
+    "count": 7,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "She's a Lover",
+    "count": 6,
+    "lastPlayed": "2022-08-06T04:00:00.000Z",
+    "formattedDate": "8/6/2022"
+  },
+  {
+    "song": "Parallel Universe",
+    "count": 5,
+    "lastPlayed": "2022-09-08T04:00:00.000Z",
+    "formattedDate": "9/8/2022"
+  },
+  {
+    "song": "Don't Forget Me",
+    "count": 5,
+    "lastPlayed": "2022-08-14T04:00:00.000Z",
+    "formattedDate": "8/14/2022"
+  },
+  {
+    "song": "Hey",
+    "count": 5,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "Wet Sand",
+    "count": 5,
+    "lastPlayed": "2022-08-19T04:00:00.000Z",
+    "formattedDate": "8/19/2022"
+  },
+  {
+    "song": "Me & My Friends",
+    "count": 4,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "Pea",
+    "count": 3,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "It's Only Natural",
+    "count": 3,
+    "lastPlayed": "2022-08-03T04:00:00.000Z",
+    "formattedDate": "8/3/2022"
+  },
+  {
+    "song": "Sir Psycho Sexy",
+    "count": 3,
+    "lastPlayed": "2022-08-10T04:00:00.000Z",
+    "formattedDate": "8/10/2022"
+  },
+  {
+    "song": "They're Red Hot",
+    "count": 3,
+    "lastPlayed": "2022-08-10T04:00:00.000Z",
+    "formattedDate": "8/10/2022"
+  },
+  {
+    "song": "Your Song",
+    "count": 2,
+    "lastPlayed": "2022-09-03T04:00:00.000Z",
+    "formattedDate": "9/3/2022"
+  },
+  {
+    "song": "What Is Soul?",
+    "count": 2,
+    "lastPlayed": "2022-07-09T04:00:00.000Z",
+    "formattedDate": "7/9/2022"
+  },
+  {
+    "song": "One Way Traffic",
+    "count": 2,
+    "lastPlayed": "2022-06-22T04:00:00.000Z",
+    "formattedDate": "6/22/2022"
+  },
+  {
+    "song": "Danny's Song",
+    "count": 1,
+    "lastPlayed": "2022-09-10T04:00:00.000Z",
+    "formattedDate": "9/10/2022"
+  },
+  {
+    "song": "Strip My Mind",
+    "count": 1,
+    "lastPlayed": "2022-08-12T04:00:00.000Z",
+    "formattedDate": "8/12/2022"
+  },
+  {
+    "song": "She's Only 18",
+    "count": 1,
+    "lastPlayed": "2022-07-29T04:00:00.000Z",
+    "formattedDate": "7/29/2022"
+  },
+  {
+    "song": "Blood Sugar Sex Magik",
+    "count": 1,
+    "lastPlayed": "2022-08-06T04:00:00.000Z",
+    "formattedDate": "8/6/2022"
+  },
+  {
+    "song": "Mommy, Where's Daddy?",
+    "count": 1,
+    "lastPlayed": "2022-07-27T04:00:00.000Z",
+    "formattedDate": "7/27/2022"
+  },
+  {
+    "song": "Emit Remmus",
+    "count": 1,
+    "lastPlayed": "2022-06-25T04:00:00.000Z",
+    "formattedDate": "6/25/2022"
+  },
+  {
+    "song": "Thirty Dirty Birds",
+    "count": 1,
+    "lastPlayed": "2022-06-12T04:00:00.000Z",
+    "formattedDate": "6/12/2022"
+  },
+  {
+    "song": "White Braids & Pillow Chair",
+    "count": 1,
+    "lastPlayed": "2022-06-12T04:00:00.000Z",
+    "formattedDate": "6/12/2022"
+  },
+  {
+    "song": "If You Have to Ask",
+    "count": 1,
+    "lastPlayed": "2022-06-29T04:00:00.000Z",
+    "formattedDate": "6/29/2022"
+  }
 ]

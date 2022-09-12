@@ -75,6 +75,6 @@ async function scrapeDataAndWriteToFile() {
   }, 5000);
 }
 
-scrapeDataAndWriteToFile();
+// scrapeDataAndWriteToFile();
 
-// module.exports = scrapeDataAndWriteToFile;
+module.exports = scrapeDataAndWriteToFile;
