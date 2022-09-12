@@ -1,5 +1,5 @@
-/songCount.json
+/json/songCount.json
 Access-Control-Allow-Origin: *
 
-/draftboard.json
+/json/draftboard.json
 Access-Control-Allow-Origin: *
