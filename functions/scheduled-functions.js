@@ -1,8 +1,8 @@
 const { schedule } = require('@netlify/functions');
-// const scrapeDataAndWriteToFile = require('../../app');
+const scrapeDataAndWriteToFile = require('../../app');
 
 const handler = async function (event, context) {
-  // scrapeDataAndWriteToFile();
+  scrapeDataAndWriteToFile();
   console.log('Received event:', event);
 
   return {
@@ -10,4 +10,4 @@ const handler = async function (event, context) {
   };
 };
 
-module.exports.handler = schedule('@hourly', handler);
+module.exports.handler = schedule('0 8 * * *', handler);
