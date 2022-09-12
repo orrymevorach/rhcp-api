@@ -58,38 +58,45 @@ function generateSongCount(setLists) {
     for (const song in songsWithCount) {
       sortedSongs.push(songsWithCount[song]);
     }
-    return sortedSongs.sort((a, b) => {
-      return b.count - a.count;
-    });
+    return sortedSongs
+      .sort((a, b) => {
+        return b.count - a.count;
+      })
+      .map(({ song, count, formattedDate }) => {
+        return {
+          song,
+          count,
+          formattedDate,
+        };
+      });
   }
 
   const sorted = sortByMostPlayed();
-  console.log('sorted', sorted);
 
-  // const apiKey = process.env.AIRTABLE_API_KEY;
-  // Airtable.configure({
-  //   endpointUrl: 'https://api.airtable.com',
-  //   apiKey,
-  // });
-  // const base = new Airtable({ apiKey }).base('appeVwl7RXW9T18gk');
-  // base('Song Count')
-  //   .select()
-  //   .eachPage(function page(records) {
-  //     records.forEach(function (record) {
-  //       const songName = record.get('song');
-  //       sorted.find(songData => {
-  //         if (songName === songData.song) {
-  //           record.replaceFields(songData, function (err, record) {
-  //             if (err) {
-  //               console.log('Error:', err);
-  //               return;
-  //             }
-  //             console.log(`Success updating record for ${record.get('song')}`);
-  //           });
-  //         }
-  //       });
-  //     });
-  //   });
+  const apiKey = process.env.AIRTABLE_API_KEY;
+  Airtable.configure({
+    endpointUrl: 'https://api.airtable.com',
+    apiKey,
+  });
+  const base = new Airtable({ apiKey }).base('appeVwl7RXW9T18gk');
+  base('Song Count')
+    .select()
+    .eachPage(function page(records) {
+      records.forEach(function (record) {
+        const songName = record.get('song');
+        sorted.find(songData => {
+          if (songName === songData.song) {
+            record.replaceFields(songData, function (err, record) {
+              if (err) {
+                console.log('Error:', err);
+                return;
+              }
+              console.log(`Success updating record for ${record.get('song')}`);
+            });
+          }
+        });
+      });
+    });
 
   // fs.writeFile(
   //   __dirname + '/json/songCount.json',
