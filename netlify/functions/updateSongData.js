@@ -1,7 +1,7 @@
-const { schedule } = require('@netlify/functions');
 const scrapeDataAndWriteToFile = require('../../scripts/app');
 
 const handler = async function (event, context) {
+  console.log('starting cron...');
   scrapeDataAndWriteToFile();
   console.log('Received event:', event);
 
@@ -10,4 +10,4 @@ const handler = async function (event, context) {
   };
 };
 
-module.exports.handler = schedule('0 8 * * *', handler);
+module.exports.handler = handler;
