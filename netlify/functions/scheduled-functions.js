@@ -1,5 +1,5 @@
 const { schedule } = require('@netlify/functions');
-const scrapeDataAndWriteToFile = require('../app');
+const scrapeDataAndWriteToFile = require('../../app');
 
 const handler = async function (event, context) {
   scrapeDataAndWriteToFile();
