@@ -2,12 +2,11 @@ const { schedule } = require('@netlify/functions');
 const scrapeDataAndWriteToFile = require('../../scripts/app');
 
 const handler = async function (event, context) {
-  scrapeDataAndWriteToFile();
-  console.log('Received event:', event);
-
+  console.log('Starting netlify function');
+  await scrapeDataAndWriteToFile();
   return {
     statusCode: 200,
   };
 };
 
-module.exports.handler = schedule('* * * * *', handler);
+module.exports.handler = schedule('25 12 * * *', handler);
