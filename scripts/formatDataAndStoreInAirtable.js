@@ -1,15 +1,13 @@
-// const fs = require('fs');
 const Airtable = require('airtable');
 const dotenv = require('dotenv');
 dotenv.config();
 
-function generateSongCount(setLists) {
+function formatDataAndStoreInAirtable(setLists) {
+  console.log('Starting to format song count data...');
   function getSongsArray() {
     const allSongs = [];
-    setLists.forEach(setlist => {
-      setlist.forEach(([song, date]) => {
-        allSongs.push({ song, date });
-      });
+    setLists.forEach(([song, date]) => {
+      allSongs.push({ song, date });
     });
     return allSongs;
   }
@@ -72,6 +70,8 @@ function generateSongCount(setLists) {
   }
 
   const sorted = sortByMostPlayed();
+  console.log('Success!');
+  console.log('Storing data in Airtable...');
 
   const apiKey = process.env.AIRTABLE_API_KEY;
   Airtable.configure({
@@ -97,18 +97,6 @@ function generateSongCount(setLists) {
         });
       });
     });
-
-  // fs.writeFile(
-  //   __dirname + '/json/songCount.json',
-  //   JSON.stringify(sorted, null, 2),
-  //   err => {
-  //     if (err) {
-  //       console.error(err);
-  //       return;
-  //     }
-  //     console.log('Successfully written data to /json/songCount.json');
-  //   }
-  // );
 }
 
-module.exports = generateSongCount;
+module.exports = formatDataAndStoreInAirtable;
