@@ -71,4 +71,4 @@ async function run() {
   await formatDataAndStoreInAirtable(setLists);
 }
 
-run();
+module.exports = run;

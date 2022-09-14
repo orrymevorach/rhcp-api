@@ -1,8 +1,8 @@
 const { schedule } = require('@netlify/functions');
-const scrapeDataAndWriteToFile = require('../../scripts/app');
+const run = require('../../scripts/app');
 
 const handler = async function (event, context) {
-  await scrapeDataAndWriteToFile();
+  await run();
   return {
     statusCode: 200,
   };
