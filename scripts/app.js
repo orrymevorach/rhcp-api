@@ -1,6 +1,9 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const formatDataAndStoreInAirtable = require('./formatDataAndStoreInAirtable');
+const {
+  formatDataAndStoreInAirtable,
+} = require('./formatDataAndStoreInAirtable');
+const storeDate = require('./storeDate');
 
 async function getPageLinks(url) {
   console.log(`Scraping data from ${url}`);
@@ -18,7 +21,7 @@ async function getPageLinks(url) {
     );
     formattedHrefs.push(href);
   });
-  console.log(`Success! Scraped data from ${url}`);
+  console.log('Success!');
   return formattedHrefs;
 }
 
@@ -42,33 +45,29 @@ async function getAllSongsFromSetLists(concertPageLinks) {
       });
     }
   }
-  console.log('Success! All songs pushed to list.');
+  console.log('Success!');
   return allSongs;
 }
 
 async function run() {
   console.log('Starting script...');
-  const urlPageOne =
-    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html';
-  const urlPageTwo =
-    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=2';
-  const urlPageThree =
-    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=3';
-  const urlPageFour =
-    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=4';
-  const pageLinks = await getPageLinks(urlPageOne);
-  const pageLinksPageTwo = await getPageLinks(urlPageTwo);
-  const pageLinksPageThree = await getPageLinks(urlPageThree);
-  const pageLinksPageFour = await getPageLinks(urlPageFour);
-
-  const allLinks = [
-    ...pageLinks,
-    ...pageLinksPageTwo,
-    ...pageLinksPageThree,
-    ...pageLinksPageFour,
+  const urls = [
+    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html',
+    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=2',
+    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=3',
+    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=4',
   ];
+
+  const allLinks = [];
+  for (url of urls) {
+    const pageLinks = await getPageLinks(url);
+    allLinks.push(...pageLinks);
+  }
+
   const setLists = await getAllSongsFromSetLists(allLinks);
+  storeDate();
   await formatDataAndStoreInAirtable(setLists);
 }
 
-module.exports = run;
+// module.exports = run;
+run();

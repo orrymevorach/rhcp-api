@@ -1,8 +1,10 @@
-const Airtable = require('airtable');
 const dotenv = require('dotenv');
+const storeDate = require('./storeDate');
+const AirtableConfig = require('./utils/airtable');
+const { formatDate } = require('./utils/utils');
 dotenv.config();
 
-function formatDataAndStoreInAirtable(setLists) {
+async function formatDataAndStoreInAirtable(setLists) {
   console.log('Starting to format song count data...');
   function getSongsArray() {
     const allSongs = [];
@@ -11,13 +13,6 @@ function formatDataAndStoreInAirtable(setLists) {
     });
     return allSongs;
   }
-
-  const formatDate = date => {
-    const month = date.getMonth() + 1;
-    const day = date.getDate();
-    const year = date.getFullYear();
-    return `${month}/${day}/${year}`;
-  };
 
   function count() {
     const allSongs = getSongsArray();
@@ -73,15 +68,9 @@ function formatDataAndStoreInAirtable(setLists) {
   console.log('Success!');
   console.log('Storing data in Airtable...');
 
-  const apiKey = process.env.AIRTABLE_API_KEY;
-  Airtable.configure({
-    endpointUrl: 'https://api.airtable.com',
-    apiKey,
-  });
-  const base = new Airtable({ apiKey }).base('appeVwl7RXW9T18gk');
-  base('Song Count')
+  await AirtableConfig.base('appeVwl7RXW9T18gk')('Song Count')
     .select()
-    .eachPage(function page(records) {
+    .eachPage(async function page(records) {
       records.forEach(function (record) {
         const songName = record.get('song');
         sorted.find(songData => {
@@ -97,6 +86,7 @@ function formatDataAndStoreInAirtable(setLists) {
         });
       });
     });
+  return;
 }
 
-module.exports = formatDataAndStoreInAirtable;
+module.exports = { formatDataAndStoreInAirtable, formatDate };
