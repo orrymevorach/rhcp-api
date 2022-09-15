@@ -7,7 +7,11 @@ const formatDate = date => {
 
 const formatTime = date => {
   const AMPM = date.getHours > 12 ? 'AM' : 'PM';
-  return `${date.getHours()}:${date.getMinutes()}${AMPM}`;
+  const minutes =
+    date.getMinutes().length === 1
+      ? `0${date.getMinutes()}`
+      : date.getMinutes();
+  return `${date.getHours()}:${minutes}${AMPM}`;
 };
 
 module.exports = {
