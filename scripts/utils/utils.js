@@ -6,12 +6,13 @@ const formatDate = date => {
 };
 
 const formatTime = date => {
-  const AMPM = date.getHours >= 12 ? 'PM' : 'AM';
+  const hours = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
   const minutes =
     date.getMinutes().length === 1
       ? `0${date.getMinutes()}`
       : date.getMinutes();
-  return `${date.getHours()}:${minutes}${AMPM}`;
+  const AMPM = date.getHours() >= 12 ? 'PM' : 'AM';
+  return `${hours}:${minutes}${AMPM}`;
 };
 
 module.exports = {
