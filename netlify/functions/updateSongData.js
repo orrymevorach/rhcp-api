@@ -1,5 +1,5 @@
 const { schedule } = require('@netlify/functions');
-const run = require('../../scripts/app');
+const run = require('../../scripts/storeMostRecentConcerts');
 
 const handler = async function (event, context) {
   await run();
