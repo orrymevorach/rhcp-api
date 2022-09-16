@@ -6,7 +6,7 @@ const formatDate = date => {
 };
 
 const formatTime = date => {
-  const AMPM = date.getHours > 12 ? 'AM' : 'PM';
+  const AMPM = date.getHours >= 12 ? 'PM' : 'AM';
   const minutes =
     date.getMinutes().length === 1
       ? `0${date.getMinutes()}`
