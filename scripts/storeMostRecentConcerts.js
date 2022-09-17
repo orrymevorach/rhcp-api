@@ -33,18 +33,19 @@ async function updateSongCountFromSelectedPage() {
       await AirtableConfig.base('appeVwl7RXW9T18gk')('Song Count')
         .select()
         .eachPage(async function page(records) {
+          const songsArray = [];
           records.forEach(function (record) {
             const songName = record.get('song');
             const count = record.get('count');
+            songsArray.push(songName);
             formattedSongs.find(songData => {
               if (songName === songData.song) {
                 const updatedSongData = {
-                  song: songName,
                   count: count + 1,
                   formattedDate: songData.formattedDate,
                   dateInJs: songData.dateInJs,
                 };
-                record.replaceFields(updatedSongData, function (err, record) {
+                record.updateFields(updatedSongData, function (err, record) {
                   if (err) {
                     console.log('Error:', err);
                     return;
@@ -56,6 +57,20 @@ async function updateSongCountFromSelectedPage() {
               }
             });
           });
+          // Check for new songs, and add them to song list
+          console.log('Checking for new songs...');
+          formattedSongs.forEach(song => {
+            if (!songsArray.includes(song.song)) {
+              AirtableConfig.base('appeVwl7RXW9T18gk')('Song Count').create(
+                song,
+                (err, record) => {
+                  if (err) console.log('err', err);
+                  console.log(`Created record for ${record.fields.song}`);
+                }
+              );
+            }
+          });
+          console.log('Done!');
         });
     });
 }
