@@ -9,6 +9,7 @@ const pageOneConcerts =
   'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html';
 
 async function updateSongCountFromSelectedPage() {
+  console.log('Checking for a new concert...');
   return await AirtableConfig.base('appeVwl7RXW9T18gk')('Song Count')
     .select()
     .eachPage(async records => {

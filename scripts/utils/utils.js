@@ -6,12 +6,14 @@ const formatDate = date => {
 };
 
 const formatTime = date => {
-  const hours = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
-  const minutes =
+  let hours = date.getHours() - 4;
+  hours = hours > 12 ? hours - 12 : hours;
+  let minutes =
     date.getMinutes().length === 1
       ? `0${date.getMinutes()}`
       : date.getMinutes();
-  const AMPM = date.getHours() >= 12 ? 'PM' : 'AM';
+  if (minutes === 0) minutes = '00';
+  const AMPM = hours >= 12 ? 'PM' : 'AM';
   return `${hours}:${minutes}${AMPM}`;
 };
 
