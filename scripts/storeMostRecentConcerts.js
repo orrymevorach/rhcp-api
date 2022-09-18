@@ -3,7 +3,6 @@ const getConcertDatesAndHrefs = require('./functions/getConcertData');
 const getMostRecentConcertDate = require('./functions/getMostRecentConcertDate');
 const getSongCountFromSetLists = require('./functions/getSongCountFromSetLists');
 const getSongsFromSetListPage = require('./functions/getSongsFromSetListPage');
-const storeDate = require('./storeDate');
 
 const pageOneConcerts =
   'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html';
@@ -78,7 +77,6 @@ async function updateSongCountFromSelectedPage() {
 
 async function run() {
   console.log('Starting script...');
-  storeDate();
   await updateSongCountFromSelectedPage();
 }
 
