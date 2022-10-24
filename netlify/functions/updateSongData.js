@@ -1,11 +1,11 @@
 const { schedule } = require('@netlify/functions');
-const run = require('../../scripts/storeMostRecentConcerts');
+const run = require('../../scripts/storeAllSongs');
 
-const handler = async function (event, context) {
+const handler = async function () {
   await run();
   return {
     statusCode: 200,
   };
 };
 
-module.exports.handler = schedule('0 12 * * *', handler);
+module.exports.handler = schedule('* * * * *', handler);
