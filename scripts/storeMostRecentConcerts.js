@@ -16,10 +16,10 @@ async function updateSongCountFromSelectedPage() {
       for (record of records) {
         allDates.push(new Date(record.fields.dateInJs));
       }
-      const mostRecentConcert = await getMostRecentConcertDate(allDates);
+      const mostRecentConcertDate = await getMostRecentConcertDate(allDates);
       const concertData = await getConcertDatesAndHrefs(pageOneConcerts);
       const filteredConcerts = concertData.filter(({ dateInJs }) => {
-        if (dateInJs > mostRecentConcert) return true;
+        if (dateInJs > mostRecentConcertDate) return true;
       });
       const allSongs = await getSongsFromSetListPage(filteredConcerts);
       const formattedSongs = await getSongCountFromSetLists(allSongs);
