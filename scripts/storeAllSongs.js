@@ -52,5 +52,5 @@ async function run() {
   await storeAllSongsInAirtable(formattedSongs);
 }
 
-module.exports = run;
-// run();
+// module.exports = storeAllSongsInAirtable;
+run();
