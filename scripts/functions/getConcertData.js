@@ -33,7 +33,7 @@ async function getConcertDatesAndHrefs(url) {
     const setListData = {
       href,
       formattedDate,
-      date: new Date(formattedDate),
+      dateInJs: new Date(formattedDate),
     };
     pageOneSetLists.push(setListData);
   });

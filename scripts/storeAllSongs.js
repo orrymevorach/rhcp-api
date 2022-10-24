@@ -1,4 +1,3 @@
-const storeDate = require('./storeDate');
 const getSongCountFromSetLists = require('./functions/getSongCountFromSetLists');
 const getSongsFromSetListPage = require('./functions/getSongsFromSetListPage');
 const getConcertDatesAndHrefs = require('./functions/getConcertData');
@@ -46,7 +45,6 @@ async function run() {
     allLinks.push(...pageLinks);
   }
 
-  storeDate();
   const allSongs = await getSongsFromSetListPage(allLinks);
   const formattedSongs = await getSongCountFromSetLists(allSongs);
   await storeAllSongsInAirtable(formattedSongs);
