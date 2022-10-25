@@ -37,6 +37,7 @@ async function run() {
     'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=3',
     'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=4',
     'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=5',
+    'https://www.setlist.fm/setlists/red-hot-chili-peppers-13d68969.html?page=6',
   ];
 
   const allLinks = [];
