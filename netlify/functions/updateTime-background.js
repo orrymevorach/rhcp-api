@@ -1,5 +1,5 @@
 const { schedule } = require('@netlify/functions');
-const storeDate = require('./updateTime');
+const storeDate = require('../../scripts/storeDate');
 
 const handler = async function (event, context) {
   await storeDate();
